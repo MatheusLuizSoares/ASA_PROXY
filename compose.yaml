@@ -52,3 +52,5 @@ services:
    container_name: web03
     #ports:
      #  - "80:80/tcp"
+  volumes:
+   - ./proxy/certs:/etc/nginx/ssl
